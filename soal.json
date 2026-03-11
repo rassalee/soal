@@ -538,11 +538,11 @@
         "jawaban": "A"
       },
       "50": {
-        "soal": "Tag istilah pada daftar definisi adalah?",
-        "A": "<dt>",
-        "B": "<dd>",
-        "C": "<term>",
-        "D": "<li>",
+        "soal": "Berapa Nilai untuk aplikasi ini?",
+        "A": "100",
+        "B": "75",
+        "C": "50",
+        "D": "0",
         "jawaban": "A"
       },
       "51": {
