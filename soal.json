@@ -1,120 +1,1752 @@
 {
-  "version": 2,
+  "version": 3,
   "kategori": {
-    "html": {
-      "1": {"soal":"Apa kepanjangan dari HTML?","A":"Hyper Text Markup Language","B":"High Transfer Machine Language","C":"Hyper Tool Markup Language","D":"Home Text Machine Language","jawaban":"A"},
-      "2": {"soal":"Tag HTML untuk membuat paragraf adalah?","A":"<p>","B":"<div>","C":"<span>","D":"<br>","jawaban":"A"},
-      "3": {"soal":"Tag HTML untuk membuat judul terbesar adalah?","A":"<h6>","B":"<h1>","C":"<head>","D":"<title>","jawaban":"B"},
-      "4": {"soal":"Tag untuk membuat baris baru adalah?","A":"<hr>","B":"<br>","C":"<p>","D":"<line>","jawaban":"B"},
-      "5": {"soal":"Tag untuk membuat link adalah?","A":"<a>","B":"<link>","C":"<href>","D":"<url>","jawaban":"A"},
-      "6": {"soal":"Atribut untuk menentukan tujuan link adalah?","A":"src","B":"href","C":"target","D":"url","jawaban":"B"},
-      "7": {"soal":"Tag untuk menampilkan gambar adalah?","A":"<img>","B":"<picture>","C":"<src>","D":"<image>","jawaban":"A"},
-      "8": {"soal":"Atribut sumber gambar pada tag img adalah?","A":"href","B":"link","C":"src","D":"imgsrc","jawaban":"C"},
-      "9": {"soal":"Tag untuk membuat daftar tidak berurutan adalah?","A":"<ul>","B":"<ol>","C":"<li>","D":"<dl>","jawaban":"A"},
-      "10": {"soal":"Tag untuk membuat daftar berurutan adalah?","A":"<ul>","B":"<ol>","C":"<li>","D":"<list>","jawaban":"B"},
-
-      "11": {"soal":"Tag untuk item pada list adalah?","A":"<item>","B":"<li>","C":"<list>","D":"<ul>","jawaban":"B"},
-      "12": {"soal":"Tag untuk membuat tabel adalah?","A":"<tb>","B":"<table>","C":"<tr>","D":"<td>","jawaban":"B"},
-      "13": {"soal":"Tag untuk baris tabel adalah?","A":"<td>","B":"<th>","C":"<tr>","D":"<row>","jawaban":"C"},
-      "14": {"soal":"Tag untuk kolom tabel adalah?","A":"<td>","B":"<col>","C":"<cell>","D":"<tr>","jawaban":"A"},
-      "15": {"soal":"Tag untuk header tabel adalah?","A":"<td>","B":"<th>","C":"<head>","D":"<tablehead>","jawaban":"B"},
-      "16": {"soal":"Tag untuk membuat form adalah?","A":"<form>","B":"<input>","C":"<submit>","D":"<button>","jawaban":"A"},
-      "17": {"soal":"Tag untuk input teks adalah?","A":"<text>","B":"<input type='text'>","C":"<textbox>","D":"<field>","jawaban":"B"},
-      "18": {"soal":"Tag untuk membuat tombol adalah?","A":"<button>","B":"<btn>","C":"<submit>","D":"<click>","jawaban":"A"},
-      "19": {"soal":"Tag untuk membuat garis horizontal adalah?","A":"<br>","B":"<line>","C":"<hr>","D":"<border>","jawaban":"C"},
-      "20": {"soal":"Tag untuk bagian head halaman adalah?","A":"<header>","B":"<top>","C":"<head>","D":"<metahead>","jawaban":"C"},
-
-      "21": {"soal":"Tag untuk judul halaman di tab browser adalah?","A":"<meta>","B":"<title>","C":"<head>","D":"<header>","jawaban":"B"},
-      "22": {"soal":"Tag utama isi halaman adalah?","A":"<body>","B":"<main>","C":"<page>","D":"<content>","jawaban":"A"},
-      "23": {"soal":"Tag untuk metadata halaman adalah?","A":"<meta>","B":"<data>","C":"<info>","D":"<head>","jawaban":"A"},
-      "24": {"soal":"Tag untuk membuat komentar HTML adalah?","A":"// komentar","B":"# komentar","C":"<!-- komentar -->","D":"/* komentar */","jawaban":"C"},
-      "25": {"soal":"Tag untuk membuat teks tebal adalah?","A":"<b>","B":"<bold>","C":"<stronger>","D":"<fat>","jawaban":"A"},
-      "26": {"soal":"Tag untuk teks miring adalah?","A":"<italic>","B":"<i>","C":"<emphasis>","D":"<style>","jawaban":"B"},
-      "27": {"soal":"Tag untuk garis bawah teks adalah?","A":"<u>","B":"<underline>","C":"<line>","D":"<textline>","jawaban":"A"},
-      "28": {"soal":"Tag untuk membuat section di HTML5 adalah?","A":"<part>","B":"<section>","C":"<div>","D":"<block>","jawaban":"B"},
-      "29": {"soal":"Tag HTML5 untuk navigasi adalah?","A":"<menu>","B":"<nav>","C":"<navigate>","D":"<linkbar>","jawaban":"B"},
-      "30": {"soal":"Tag HTML5 untuk footer adalah?","A":"<foot>","B":"<bottom>","C":"<footer>","D":"<end>","jawaban":"C"},
-
-      "31": {"soal":"Tag HTML5 untuk header adalah?","A":"<header>","B":"<top>","C":"<head>","D":"<heading>","jawaban":"A"},
-      "32": {"soal":"Tag untuk membuat video adalah?","A":"<media>","B":"<movie>","C":"<video>","D":"<vid>","jawaban":"C"},
-      "33": {"soal":"Tag untuk memutar audio adalah?","A":"<audio>","B":"<sound>","C":"<music>","D":"<mp3>","jawaban":"A"},
-      "34": {"soal":"Atribut untuk membuka link di tab baru adalah?","A":"target='_blank'","B":"newtab","C":"open='new'","D":"blank","jawaban":"A"},
-      "35": {"soal":"Tag untuk membuat dropdown adalah?","A":"<dropdown>","B":"<select>","C":"<list>","D":"<choice>","jawaban":"B"},
-      "36": {"soal":"Tag untuk opsi dropdown adalah?","A":"<opt>","B":"<choice>","C":"<option>","D":"<item>","jawaban":"C"},
-      "37": {"soal":"Tag untuk textarea adalah?","A":"<text>","B":"<textarea>","C":"<input-text>","D":"<area>","jawaban":"B"},
-      "38": {"soal":"Tag untuk label form adalah?","A":"<label>","B":"<name>","C":"<tag>","D":"<caption>","jawaban":"A"},
-      "39": {"soal":"Tag untuk iframe adalah?","A":"<frame>","B":"<iframe>","C":"<embedframe>","D":"<window>","jawaban":"B"},
-      "40": {"soal":"Tag untuk memasukkan CSS eksternal adalah?","A":"<css>","B":"<link>","C":"<stylelink>","D":"<import>","jawaban":"B"},
-
-      "41": {"soal":"Tag untuk CSS internal adalah?","A":"<script>","B":"<style>","C":"<css>","D":"<design>","jawaban":"B"},
-      "42": {"soal":"Tag untuk JavaScript adalah?","A":"<js>","B":"<script>","C":"<javascript>","D":"<code>","jawaban":"B"},
-      "43": {"soal":"Atribut alt pada img berfungsi untuk?","A":"Ukuran gambar","B":"Teks alternatif gambar","C":"Link gambar","D":"Border gambar","jawaban":"B"},
-      "44": {"soal":"Tag HTML untuk garis pemisah adalah?","A":"<line>","B":"<hr>","C":"<split>","D":"<divider>","jawaban":"B"},
-      "45": {"soal":"Tag untuk membuat block umum adalah?","A":"<block>","B":"<div>","C":"<group>","D":"<section>","jawaban":"B"},
-      "46": {"soal":"Tag inline umum untuk teks adalah?","A":"<span>","B":"<inline>","C":"<text>","D":"<div>","jawaban":"A"},
-      "47": {"soal":"Tag HTML untuk progress bar adalah?","A":"<bar>","B":"<progress>","C":"<load>","D":"<percent>","jawaban":"B"},
-      "48": {"soal":"Tag untuk meter value adalah?","A":"<meter>","B":"<value>","C":"<range>","D":"<bar>","jawaban":"A"},
-      "49": {"soal":"Tag untuk daftar definisi adalah?","A":"<dl>","B":"<ol>","C":"<ul>","D":"<li>","jawaban":"A"},
-      "50": {"soal":"Tag istilah pada daftar definisi adalah?","A":"<dt>","B":"<dd>","C":"<term>","D":"<li>","jawaban":"A"},
-
-      "51": {"soal":"Tag deskripsi pada daftar definisi adalah?","A":"<desc>","B":"<dd>","C":"<detail>","D":"<dl>","jawaban":"B"},
-      "52": {"soal":"Tag untuk menandai teks penting adalah?","A":"<important>","B":"<strong>","C":"<bold>","D":"<b>","jawaban":"B"},
-      "53": {"soal":"Tag untuk penekanan teks adalah?","A":"<em>","B":"<italic>","C":"<focus>","D":"<mark>","jawaban":"A"},
-      "54": {"soal":"Tag untuk menyorot teks adalah?","A":"<mark>","B":"<highlight>","C":"<color>","D":"<span>","jawaban":"A"},
-      "55": {"soal":"Tag untuk teks kecil adalah?","A":"<tiny>","B":"<small>","C":"<mini>","D":"<less>","jawaban":"B"},
-      "56": {"soal":"Tag untuk teks dicoret adalah?","A":"<cut>","B":"<del>","C":"<strike>","D":"<remove>","jawaban":"B"},
-      "57": {"soal":"Tag untuk teks superscript adalah?","A":"<sup>","B":"<super>","C":"<top>","D":"<power>","jawaban":"A"},
-      "58": {"soal":"Tag untuk teks subscript adalah?","A":"<sub>","B":"<down>","C":"<low>","D":"<bottom>","jawaban":"A"},
-      "59": {"soal":"Tag untuk memasukkan file eksternal script adalah?","A":"<script src='...'>","B":"<js>","C":"<code>","D":"<import>","jawaban":"A"},
-      "60": {"soal":"Tag untuk container konten utama HTML5 adalah?","A":"<main>","B":"<body>","C":"<content>","D":"<section>","jawaban":"A"},
-
-      "61": {"soal":"Tag untuk artikel mandiri adalah?","A":"<article>","B":"<post>","C":"<blog>","D":"<news>","jawaban":"A"},
-      "62": {"soal":"Tag untuk sidebar adalah?","A":"<side>","B":"<aside>","C":"<menu>","D":"<panel>","jawaban":"B"},
-      "63": {"soal":"Tag untuk grup heading adalah?","A":"<group>","B":"<hgroup>","C":"<heading>","D":"<titles>","jawaban":"B"},
-      "64": {"soal":"Tag untuk menyisipkan objek adalah?","A":"<embed>","B":"<object>","C":"<insert>","D":"<media>","jawaban":"B"},
-      "65": {"soal":"Tag untuk embed media adalah?","A":"<embed>","B":"<object>","C":"<media>","D":"<plugin>","jawaban":"A"},
-      "66": {"soal":"Tag untuk menampilkan kode adalah?","A":"<code>","B":"<program>","C":"<script>","D":"<precode>","jawaban":"A"},
-      "67": {"soal":"Tag untuk teks preformatted adalah?","A":"<format>","B":"<pre>","C":"<text>","D":"<code>","jawaban":"B"},
-      "68": {"soal":"Tag untuk keyboard input adalah?","A":"<kbd>","B":"<key>","C":"<input>","D":"<type>","jawaban":"A"},
-      "69": {"soal":"Tag untuk variabel adalah?","A":"<var>","B":"<variable>","C":"<v>","D":"<data>","jawaban":"A"},
-      "70": {"soal":"Tag untuk sampel output program adalah?","A":"<output>","B":"<samp>","C":"<result>","D":"<print>","jawaban":"B"},
-
-      "71": {"soal":"Tag untuk caption tabel adalah?","A":"<caption>","B":"<title>","C":"<thead>","D":"<label>","jawaban":"A"},
-      "72": {"soal":"Tag untuk header tabel adalah?","A":"<thead>","B":"<th>","C":"<top>","D":"<tr>","jawaban":"A"},
-      "73": {"soal":"Tag untuk body tabel adalah?","A":"<tbody>","B":"<tablebody>","C":"<body>","D":"<tr>","jawaban":"A"},
-      "74": {"soal":"Tag untuk footer tabel adalah?","A":"<tfoot>","B":"<foot>","C":"<bottom>","D":"<tablefoot>","jawaban":"A"},
-      "75": {"soal":"Tag untuk grup kolom tabel adalah?","A":"<colgroup>","B":"<groupcol>","C":"<cols>","D":"<colset>","jawaban":"A"},
-      "76": {"soal":"Tag untuk kolom tabel adalah?","A":"<col>","B":"<column>","C":"<td>","D":"<tr>","jawaban":"A"},
-      "77": {"soal":"Tag HTML untuk detail expandable adalah?","A":"<details>","B":"<expand>","C":"<info>","D":"<more>","jawaban":"A"},
-      "78": {"soal":"Tag judul untuk details adalah?","A":"<summary>","B":"<title>","C":"<head>","D":"<label>","jawaban":"A"},
-      "79": {"soal":"Tag untuk dialog box adalah?","A":"<dialog>","B":"<box>","C":"<modal>","D":"<popup>","jawaban":"A"},
-      "80": {"soal":"Tag untuk template HTML adalah?","A":"<template>","B":"<model>","C":"<layout>","D":"<pattern>","jawaban":"A"},
-
-      "81": {"soal":"Tag untuk data dengan nilai mesin adalah?","A":"<data>","B":"<value>","C":"<dataset>","D":"<info>","jawaban":"A"},
-      "82": {"soal":"Tag untuk waktu atau tanggal adalah?","A":"<date>","B":"<time>","C":"<clock>","D":"<calendar>","jawaban":"B"},
-      "83": {"soal":"Tag untuk progress bar adalah?","A":"<progress>","B":"<loading>","C":"<percent>","D":"<meter>","jawaban":"A"},
-      "84": {"soal":"Tag untuk meter nilai adalah?","A":"<meter>","B":"<progress>","C":"<value>","D":"<bar>","jawaban":"A"},
-      "85": {"soal":"Tag untuk gambar responsif HTML5 adalah?","A":"<picture>","B":"<imgset>","C":"<image>","D":"<srcset>","jawaban":"A"},
-      "86": {"soal":"Atribut untuk gambar responsif adalah?","A":"setsrc","B":"srcset","C":"imgset","D":"pictureset","jawaban":"B"},
-      "87": {"soal":"Tag untuk area pada image map adalah?","A":"<area>","B":"<maparea>","C":"<zone>","D":"<part>","jawaban":"A"},
-      "88": {"soal":"Tag untuk membuat image map adalah?","A":"<imagemap>","B":"<map>","C":"<imgmap>","D":"<zone>","jawaban":"B"},
-      "89": {"soal":"Tag untuk membuat fieldset pada form adalah?","A":"<fieldset>","B":"<formgroup>","C":"<group>","D":"<set>","jawaban":"A"},
-      "90": {"soal":"Tag judul fieldset adalah?","A":"<title>","B":"<legend>","C":"<label>","D":"<caption>","jawaban":"B"},
-
-      "91": {"soal":"Tag untuk output hasil form adalah?","A":"<output>","B":"<result>","C":"<print>","D":"<show>","jawaban":"A"},
-      "92": {"soal":"Tag untuk datalist pada input adalah?","A":"<list>","B":"<datalist>","C":"<data>","D":"<options>","jawaban":"B"},
-      "93": {"soal":"Tag untuk opsi datalist adalah?","A":"<option>","B":"<choice>","C":"<select>","D":"<item>","jawaban":"A"},
-      "94": {"soal":"Tag untuk meter progress adalah?","A":"<meter>","B":"<progress>","C":"<bar>","D":"<percent>","jawaban":"A"},
-      "95": {"soal":"Tag untuk konten fallback pada video adalah?","A":"<source>","B":"<track>","C":"<fallback>","D":"<alt>","jawaban":"A"},
-      "96": {"soal":"Tag untuk subtitle video adalah?","A":"<track>","B":"<subtitle>","C":"<texttrack>","D":"<caption>","jawaban":"A"},
-      "97": {"soal":"Tag untuk kontainer SVG di HTML adalah?","A":"<svg>","B":"<vector>","C":"<graphic>","D":"<shape>","jawaban":"A"},
-      "98": {"soal":"Tag untuk grafik canvas adalah?","A":"<draw>","B":"<canvas>","C":"<graphic>","D":"<paint>","jawaban":"B"},
-      "99": {"soal":"Atribut id berfungsi untuk?","A":"Memberi identitas unik elemen","B":"Mengubah warna","C":"Membuat link","D":"Menambah ukuran","jawaban":"A"},
-      "100": {"soal":"Atribut class berfungsi untuk?","A":"Memberi style CSS pada banyak elemen","B":"Menambah gambar","C":"Membuat tabel","D":"Menghapus tag","jawaban":"A"}
+    "Dasar Campuran": {
+      "1": {"soal":"Bahasa pemrograman apa saja yang umum digunakan untuk backend web?","A":"HTML, CSS, JS","B":"Node.js, PHP, Python, Java","C":"React, Vue, Angular","D":"Photoshop, Illustrator","jawaban":"B"},
+      "2": {"soal":"Software yang digunakan untuk menulis kode dan ringan adalah?","A":"Visual Studio Code, Notepad++, Sublime Text","B":"XAMPP, Laragon","C":"MySQL, phpMyAdmin","D":"Photoshop, Illustrator","jawaban":"A"},
+      "3": {"soal":"Server lokal untuk menjalankan PHP dan MySQL adalah?","A":"Python","B":"XAMPP, Laragon","C":"Visual Studio","D":"Node.js","jawaban":"B"},
+      "4": {"soal":"Database relasional yang populer adalah?","A":"MongoDB","B":"MySQL, PostgreSQL","C":"React","D":"CSS","jawaban":"B"},
+      "5": {"soal":"Editor kode yang mendukung banyak bahasa pemrograman adalah?","A":"Notepad++","B":"Word","C":"Excel","D":"PowerPoint","jawaban":"A"},
+      "6": {"soal":"Bahasa pemrograman utama untuk frontend web adalah?","A":"Python","B":"JavaScript","C":"PHP","D":"C++","jawaban":"B"},
+      "7": {"soal":"Bahasa pemrograman yang biasa digunakan untuk membuat aplikasi Android asli adalah?","A":"Java / Kotlin","B":"Python","C":"PHP","D":"JavaScript","jawaban":"A"},
+      "8": {"soal":"Framework JavaScript populer untuk frontend adalah?","A":"React, Vue, Angular","B":"Laravel, CodeIgniter","C":"Django, Flask","D":"Node.js, Express","jawaban":"A"},
+      "9": {"soal":"Tool untuk versi kontrol kode adalah?","A":"Git","B":"Photoshop","C":"Excel","D":"XAMPP","jawaban":"A"},
+      "10": {"soal":"Software untuk membuat virtual machine adalah?","A":"VMware, VirtualBox","B":"XAMPP","C":"React, Node.js","D":"MySQL, MongoDB","jawaban":"A"},
+      "11": {"soal":"Bahasa scripting populer untuk data science dan automasi adalah?","A":"Python","B":"C++","C":"PHP","D":"HTML","jawaban":"A"},
+      "12": {"soal":"Software untuk mendesain UI/UX adalah?","A":"Figma, Adobe XD","B":"Node.js","C":"MySQL","D":"XAMPP","jawaban":"A"},
+      "13": {"soal":"Sistem operasi open source untuk server adalah?","A":"Windows 10","B":"Ubuntu, CentOS","C":"macOS","D":"Android","jawaban":"B"},
+      "14": {"soal":"Bahasa markup untuk membuat halaman web adalah?","A":"HTML","B":"CSS","C":"Python","D":"PHP","jawaban":"A"},
+      "15": {"soal":"Bahasa untuk styling halaman web adalah?","A":"HTML","B":"CSS","C":"Python","D":"PHP","jawaban":"B"},
+      "16": {"soal":"Database NoSQL populer adalah?","A":"MongoDB","B":"MySQL","C":"PHP","D":"CSS","jawaban":"A"},
+      "17": {"soal":"Bahasa pemrograman untuk game development dengan Unity adalah?","A":"C#","B":"Python","C":"PHP","D":"JavaScript","jawaban":"A"},
+      "18": {"soal":"Software IDE untuk Java adalah?","A":"NetBeans, Eclipse, IntelliJ","B":"Visual Studio Code","C":"XAMPP","D":"MySQL","jawaban":"A"},
+      "19": {"soal":"Framework PHP populer untuk web backend adalah?","A":"Laravel, CodeIgniter","B":"React, Angular","C":"Django, Flask","D":"Node.js, Express","jawaban":"A"},
+      "20": {"soal":"Bahasa pemrograman yang dijalankan di browser adalah?","A":"Python","B":"JavaScript","C":"PHP","D":"C#","jawaban":"B"},
+      "21": {"soal":"Bahasa yang sering dipakai untuk scripting server adalah?","A":"PHP, Node.js, Python","B":"HTML, CSS","C":"Photoshop","D":"C++","jawaban":"A"},
+      "22": {"soal":"Bahasa pemrograman yang dipakai untuk membuat smart contract di blockchain adalah?","A":"Solidity","B":"Python","C":"C#","D":"PHP","jawaban":"A"},
+      "23": {"soal":"Software yang digunakan untuk database NoSQL adalah?","A":"MongoDB","B":"MySQL","C":"XAMPP","D":"PHP","jawaban":"A"},
+      "24": {"soal":"Bahasa pemrograman yang compiled dan sering untuk sistem adalah?","A":"C, C++","B":"Python","C":"PHP","D":"JavaScript","jawaban":"A"},
+      "25": {"soal":"Framework Python untuk web adalah?","A":"Django, Flask","B":"React, Vue","C":"Laravel, CodeIgniter","D":"Node.js","jawaban":"A"},
+      "26": {"soal":"Bahasa untuk membuat website statis adalah?","A":"HTML, CSS, JS","B":"Python","C":"PHP","D":"C#","jawaban":"A"},
+      "27": {"soal":"Tool untuk membuat animasi UI adalah?","A":"Adobe After Effects","B":"Node.js","C":"MySQL","D":"PHP","jawaban":"A"},
+      "28": {"soal":"Software untuk mengedit gambar adalah?","A":"Photoshop, GIMP","B":"Visual Studio Code","C":"Node.js","D":"MongoDB","jawaban":"A"},
+      "29": {"soal":"Sistem operasi populer untuk desktop adalah?","A":"Windows, macOS, Linux","B":"Android, iOS","C":"Unix","D":"FreeBSD","jawaban":"A"},
+      "30": {"soal":"Software untuk virtualisasi container adalah?","A":"Docker, Kubernetes","B":"VMware, VirtualBox","C":"XAMPP","D":"MySQL","jawaban":"A"},
+      "31": {"soal":"Bahasa pemrograman untuk data science adalah?","A":"Python, R","B":"C++","C":"PHP","D":"JavaScript","jawaban":"A"},
+      "32": {"soal":"Bahasa markup untuk email adalah?","A":"HTML","B":"CSS","C":"PHP","D":"Python","jawaban":"A"},
+      "33": {"soal":"Bahasa untuk styling email adalah?","A":"CSS","B":"HTML","C":"Python","D":"PHP","jawaban":"A"},
+      "34": {"soal":"Bahasa yang sering dipakai untuk membuat bot adalah?","A":"Python, Node.js, PHP","B":"HTML, CSS","C":"JavaScript frontend","D":"Photoshop","jawaban":"A"},
+      "35": {"soal":"Software untuk membuat database server adalah?","A":"MySQL, PostgreSQL","B":"XAMPP, Laragon","C":"Node.js","D":"React","jawaban":"A"},
+      "36": {"soal":"Bahasa yang dipakai untuk scripting server Node.js adalah?","A":"JavaScript","B":"Python","C":"PHP","D":"C++","jawaban":"A"},
+      "37": {"soal":"Bahasa pemrograman untuk Windows desktop app adalah?","A":"C#, VB.NET","B":"Python","C":"PHP","D":"HTML","jawaban":"A"},
+      "38": {"soal":"Bahasa yang digunakan di Linux shell scripting adalah?","A":"Bash, Shell","B":"Python","C":"C++","D":"PHP","jawaban":"A"},
+      "39": {"soal":"Software untuk mengatur project management IT adalah?","A":"Jira, Trello","B":"Photoshop","C":"Visual Studio Code","D":"Node.js","jawaban":"A"},
+      "40": {"soal":"Bahasa pemrograman untuk membuat aplikasi desktop cross-platform adalah?","A":"Java, Python","B":"C++ only","C":"PHP","D":"HTML","jawaban":"A"},
+      "41": {"soal":"Bahasa untuk membuat game 2D dan 3D populer adalah?","A":"C#, C++","B":"Python","C":"PHP","D":"HTML","jawaban":"A"},
+      "42": {"soal":"Software untuk menjalankan kontainer adalah?","A":"Docker","B":"VMware","C":"Visual Studio","D":"XAMPP","jawaban":"A"},
+      "43": {"soal":"Bahasa pemrograman yang dipakai untuk AI adalah?","A":"Python, R","B":"C++","C":"PHP","D":"HTML","jawaban":"A"},
+      "44": {"soal":"Bahasa markup untuk menampilkan tabel di web adalah?","A":"HTML","B":"CSS","C":"PHP","D":"Python","jawaban":"A"},
+      "45": {"soal":"Bahasa yang dipakai untuk membuat animasi web adalah?","A":"JavaScript, CSS","B":"Python","C":"PHP","D":"C++","jawaban":"A"},
+      "46": {"soal":"Software untuk manajemen database graf adalah?","A":"Neo4j","B":"MySQL","C":"MongoDB","D":"XAMPP","jawaban":"A"},
+      "47": {"soal":"Bahasa pemrograman untuk embedded system adalah?","A":"C, C++","B":"Python","C":"PHP","D":"JavaScript","jawaban":"A"},
+      "48": {"soal":"Bahasa untuk scripting browser automation adalah?","A":"JavaScript, Python","B":"PHP","C":"C++","D":"HTML","jawaban":"A"},
+      "49": {"soal":"Bahasa untuk membuat smart contract di Ethereum adalah?","A":"Solidity","B":"Python","C":"PHP","D":"C#","jawaban":"A"},
+      "50": {"soal":"Bahasa untuk membuat server API adalah?","A":"Node.js, Python, PHP, Java","B":"HTML, CSS","C":"Photoshop","D":"Excel","jawaban":"A"},
+      "51": {"soal":"Bahasa untuk membuat aplikasi iOS asli adalah?","A":"Swift, Objective-C","B":"Java","C":"Python","D":"C#","jawaban":"A"},
+      "52": {"soal":"Software untuk virtualisasi hardware adalah?","A":"VMware, VirtualBox","B":"Docker","C":"XAMPP","D":"Node.js","jawaban":"A"},
+      "53": {"soal":"Bahasa untuk membuat website dinamis adalah?","A":"PHP, Python, Node.js","B":"HTML, CSS","C":"Photoshop","D":"Excel","jawaban":"A"},
+      "54": {"soal":"Bahasa pemrograman untuk scripting testing adalah?","A":"Python, JavaScript","B":"PHP","C":"C++","D":"HTML","jawaban":"A"},
+      "55": {"soal":"Software untuk version control hosting online adalah?","A":"GitHub, GitLab, Bitbucket","B":"XAMPP","C":"Node.js","D":"React","jawaban":"A"},
+      "56": {"soal":"Bahasa untuk membuat GUI di Python adalah?","A":"Tkinter, PyQt","B":"PHP","C":"HTML","D":"JavaScript","jawaban":"A"},
+      "57": {"soal":"Bahasa untuk membuat aplikasi multiplatform mobile adalah?","A":"Flutter, React Native","B":"Swift","C":"Java","D":"C#","jawaban":"A"},
+      "58": {"soal":"Bahasa pemrograman yang paling populer di dunia saat ini adalah?","A":"Python","B":"PHP","C":"C++","D":"C#","jawaban":"A"},
+      "59": {"soal":"Software untuk membangun API adalah?","A":"Postman","B":"XAMPP","C":"Visual Studio","D":"Photoshop","jawaban":"A"},
+      "60": {"soal":"Bahasa markup untuk membuat form di web adalah?","A":"HTML","B":"CSS","C":"Python","D":"PHP","jawaban":"A"},
+      "61": {"soal":"Software untuk membuat diagram flow adalah?","A":"Draw.io, Lucidchart","B":"Visual Studio","C":"XAMPP","D":"Photoshop","jawaban":"A"},
+      "62": {"soal":"Bahasa untuk membuat aplikasi IoT adalah?","A":"Python, C, C++","B":"PHP","C":"HTML","D":"CSS","jawaban":"A"},
+      "63": {"soal":"Bahasa yang dipakai untuk membuat backend serverless adalah?","A":"JavaScript, Python","B":"PHP","C":"C#","D":"HTML","jawaban":"A"},
+      "64": {"soal":"Software untuk virtualisasi container di cloud adalah?","A":"Docker, Kubernetes","B":"VMware","C":"Visual Studio","D":"XAMPP","jawaban":"A"},
+      "65": {"soal":"Bahasa untuk membuat REST API adalah?","A":"Node.js, PHP, Python, Java","B":"HTML, CSS","C":"Photoshop","D":"Excel","jawaban":"A"},
+      "66": {"soal":"Bahasa yang dipakai untuk AI deep learning adalah?","A":"Python, R","B":"PHP","C":"HTML","D":"JavaScript","jawaban":"A"},
+      "67": {"soal":"Software untuk monitoring server adalah?","A":"Zabbix, Nagios, Prometheus","B":"Photoshop","C":"Excel","D":"Node.js","jawaban":"A"},
+      "68": {"soal":"Bahasa untuk membuat aplikasi desktop cross-platform adalah?","A":"Java, Python, C#","B":"PHP","C":"HTML","D":"CSS","jawaban":"A"},
+      "69": {"soal":"Bahasa untuk membuat grafik interaktif di web adalah?","A":"JavaScript (Chart.js, D3.js)","B":"Python","C":"PHP","D":"HTML","jawaban":"A"},
+      "70": {"soal":"Bahasa pemrograman untuk membuat plugin WordPress adalah?","A":"PHP, JavaScript","B":"Python","C":"C++","D":"Java","jawaban":"A"},
+      "71": {"soal":"Bahasa untuk membuat chatbot AI adalah?","A":"Python, Node.js","B":"PHP","C":"HTML","D":"CSS","jawaban":"A"},
+      "72": {"soal":"Bahasa untuk scripting web automation adalah?","A":"Python, JavaScript","B":"PHP","C":"C++","D":"HTML","jawaban":"A"},
+      "73": {"soal":"Software untuk network monitoring adalah?","A":"Wireshark, PRTG, Nagios","B":"Photoshop","C":"Excel","D":"XAMPP","jawaban":"A"},
+      "74": {"soal":"Bahasa untuk membuat aplikasi microservices adalah?","A":"Java, Node.js, Python","B":"PHP","C":"HTML","D":"CSS","jawaban":"A"},
+      "75": {"soal":"Bahasa pemrograman yang compiled adalah?","A":"C, C++, Java","B":"Python, PHP","C":"HTML, CSS","D":"JavaScript","jawaban":"A"},
+      "76": {"soal":"Bahasa pemrograman untuk membuat desktop GUI Windows adalah?","A":"C#, VB.NET","B":"Python","C":"PHP","D":"HTML","jawaban":"A"},
+      "77": {"soal":"Bahasa untuk scripting pentest dan security testing adalah?","A":"Python, Bash","B":"PHP","C":"HTML","D":"CSS","jawaban":"A"},
+      "78": {"soal":"Bahasa untuk membuat aplikasi blockchain adalah?","A":"Solidity, JavaScript, Python","B":"PHP","C":"HTML","D":"CSS","jawaban":"A"},
+      "79": {"soal":"Software untuk membuat diagram ERD adalah?","A":"DBDesigner, MySQL Workbench","B":"Visual Studio","C":"XAMPP","D":"Photoshop","jawaban":"A"},
+      "80": {"soal":"Bahasa pemrograman yang mudah dipelajari pemula adalah?","A":"Python","B":"C++","C":"Java","D":"C#","jawaban":"A"},
+      "81": {"soal":"Bahasa untuk membuat website interaktif adalah?","A":"JavaScript, PHP","B":"HTML, CSS","C":"Python","D":"C#","jawaban":"A"},
+      "82": {"soal":"Software untuk testing API adalah?","A":"Postman","B":"Visual Studio","C":"XAMPP","D":"Photoshop","jawaban":"A"},
+      "83": {"soal":"Bahasa pemrograman yang dipakai di Google adalah?","A":"Python, Go, C++","B":"PHP","C":"HTML","D":"CSS","jawaban":"A"},
+      "84": {"soal":"Software untuk memantau kinerja server web adalah?","A":"Zabbix, Nagios, Prometheus","B":"Photoshop","C":"Excel","D":"XAMPP","jawaban":"A"},
+      "85": {"soal":"Bahasa untuk membuat CLI tool adalah?","A":"Python, Node.js, Go","B":"PHP","C":"HTML","D":"CSS","jawaban":"A"},
+      "86": {"soal":"Software untuk virtualisasi cloud container adalah?","A":"Docker, Kubernetes","B":"VMware","C":"Visual Studio","D":"XAMPP","jawaban":"A"},
+      "87": {"soal":"Bahasa pemrograman untuk membuat AI chatbot adalah?","A":"Python, Node.js","B":"PHP","C":"HTML","D":"CSS","jawaban":"A"},
+      "88": {"soal":"Bahasa pemrograman populer untuk fintech dan enterprise backend adalah?","A":"Java, C#, Python","B":"PHP","C":"HTML","D":"CSS","jawaban":"A"},
+      "89": {"soal":"Bahasa scripting untuk DevOps automation adalah?","A":"Python, Bash","B":"PHP","C":"HTML","D":"CSS","jawaban": "A"}
     },
-    "php": {
-      "1": {"soal": "php jalan di mana?", "A":"langit","B":"gambar","C":"Mobil","D":"Tanah","jawaban":"A"},
-      "1": {"soal": "php lagi dimana?", "A":"rumah","B":"jalan","C":"cave","D":"kantor","jawaban":"D"}
+    "Menengah Campuran": {
+      "1": {"soal":"Apa perbedaan utama antara SQL dan NoSQL?","A":"SQL untuk relasional, NoSQL untuk non-relasional","B":"SQL untuk frontend, NoSQL untuk backend","C":"SQL untuk mobile, NoSQL untuk desktop","D":"Tidak ada perbedaan","jawaban":"A"},
+      "2": {"soal":"Dalam keamanan jaringan, apa fungsi firewall?","A":"Memfilter traffic jaringan","B":"Menyimpan database","C":"Menjalankan kode Python","D":"Mengedit gambar","jawaban":"A"},
+      "3": {"soal":"Protokol HTTPS menggunakan port?","A":"443","B":"80","C":"21","D":"22","jawaban":"A"},
+      "4": {"soal":"DNS berfungsi untuk?","A":"Menerjemahkan nama domain ke IP","B":"Menjalankan kode JavaScript","C":"Membuat database","D":"Mengedit gambar","jawaban":"A"},
+      "5": {"soal":"Load balancing berguna untuk?","A":"Mendistribusikan traffic server","B":"Membuat website statis","C":"Menulis kode HTML","D":"Menyimpan file lokal","jawaban":"A"},
+      "6": {"soal":"Bahasa pemrograman functional adalah?","A":"Haskell, Erlang","B":"PHP, JavaScript","C":"Python, C#","D":"HTML, CSS","jawaban":"A"},
+      "7": {"soal":"Dalam Docker, apa itu container?","A":"Isolated environment untuk aplikasi","B":"Database server","C":"IDE coding","D":"Virtual machine penuh","jawaban":"A"},
+      "8": {"soal":"Protocol TCP berbeda dari UDP karena?","A":"TCP reliable, UDP tidak reliable","B":"TCP untuk video, UDP untuk gambar","C":"TCP cepat, UDP lambat","D":"Tidak ada perbedaan","jawaban":"A"},
+      "9": {"soal":"Software untuk version control selain Git adalah?","A":"Mercurial, SVN","B":"XAMPP","C":"Visual Studio Code","D":"Docker","jawaban":"A"},
+      "10": {"soal":"Dalam jaringan, apa fungsi NAT?","A":"Menterjemahkan IP private ke public","B":"Menyimpan database","C":"Menjalankan Node.js","D":"Mengedit gambar","jawaban":"A"},
+      "11": {"soal":"Bahasa untuk web backend event-driven adalah?","A":"Node.js (JavaScript)","B":"Python","C":"PHP","D":"C#","jawaban":"A"},
+      "12": {"soal":"Dalam blockchain, konsensus PoW adalah singkatan dari?","A":"Proof of Work","B":"Proof of Web","C":"Push of Wallet","D":"Proof of Windows","jawaban":"A"},
+      "13": {"soal":"ORM dalam programming berfungsi untuk?","A":"Mapping database ke object","B":"Menjalankan Docker","C":"Memfilter traffic","D":"Membuat UI","jawaban":"A"},
+      "14": {"soal":"Dalam keamanan, apa itu XSS?","A":"Cross-Site Scripting","B":"Extra Secure Server","C":"Xtreme System Security","D":"Cross Server Script","jawaban":"A"},
+      "15": {"soal":"Bahasa pemrograman untuk machine learning adalah?","A":"Python, R, Julia","B":"PHP, JavaScript","C":"HTML, CSS","D":"C#","jawaban":"A"},
+      "16": {"soal":"Framework web yang menggunakan MVC pattern adalah?","A":"Laravel, CodeIgniter, Django","B":"React, Vue, Angular","C":"Node.js, Express","D":"Docker, Kubernetes","jawaban":"A"},
+      "17": {"soal":"Dalam cloud computing, SaaS adalah singkatan dari?","A":"Software as a Service","B":"Storage as a Service","C":"Server as a Service","D":"Security as a Service","jawaban":"A"},
+      "18": {"soal":"Dalam cloud, PaaS menyediakan?","A":"Platform untuk develop dan deploy aplikasi","B":"Database server","C":"Firewall","D":"Load balancer","jawaban":"A"},
+      "19": {"soal":"Framework frontend modern yang reactive adalah?","A":"React, Vue, Svelte","B":"Laravel, Django","C":"Node.js","D":"PHP","jawaban":"A"},
+      "20": {"soal":"Dalam Docker, image berbeda dari container karena?","A":"Image blueprint, container running instance","B":"Image database, container server","C":"Image editor, container IDE","D":"Tidak ada perbedaan","jawaban":"A"},
+      "21": {"soal":"Bahasa pemrograman yang compiled untuk high-performance adalah?","A":"C, C++","B":"Python, PHP","C":"JavaScript, HTML","D":"CSS, PHP","jawaban":"A"},
+      "22": {"soal":"Dalam database, indexing digunakan untuk?","A":"Mempercepat query data","B":"Menyimpan file","C":"Menjalankan kode","D":"Mengedit gambar","jawaban":"A"},
+      "23": {"soal":"Protocol FTP digunakan untuk?","A":"Transfer file","B":"Membuat website","C":"Database management","D":"Code editing","jawaban":"A"},
+      "24": {"soal":"Bahasa untuk membuat API REST adalah?","A":"Node.js, PHP, Python, Java","B":"HTML, CSS","C":"Photoshop","D":"Excel","jawaban":"A"},
+      "25": {"soal":"Keamanan jaringan dengan SSL/TLS berguna untuk?","A":"Encrypt data in transit","B":"Menyimpan database","C":"Menjalankan Node.js","D":"Membuat UI","jawaban":"A"},
+      "26": {"soal":"Bahasa pemrograman yang paling banyak digunakan untuk AI adalah?","A":"Python","B":"PHP","C":"HTML","D":"C#","jawaban":"A"},
+      "27": {"soal":"Bahasa scripting untuk DevOps automation adalah?","A":"Python, Bash","B":"PHP","C":"HTML","D":"CSS","jawaban":"A"},
+      "28": {"soal":"Dalam CI/CD, Jenkins berguna untuk?","A":"Automate build & deployment","B":"Database server","C":"Edit images","D":"Web frontend","jawaban":"A"},
+      "29": {"soal":"Bahasa untuk membuat microservices adalah?","A":"Java, Node.js, Go, Python","B":"PHP, HTML","C":"CSS, Photoshop","D":"Excel","jawaban":"A"},
+      "30": {"soal":"Bahasa untuk scripting pentest adalah?","A":"Python, Bash, Ruby","B":"PHP","C":"HTML","D":"CSS","jawaban":"A"},
+      "31": {"soal":"Dalam Docker, volume digunakan untuk?","A":"Menyimpan data secara persisten","B":"Membuat container","C":"Menjalankan IDE","D":"Load balancer","jawaban":"A"},
+      "32": {"soal":"Bahasa untuk web scraping adalah?","A":"Python, Node.js","B":"PHP","C":"HTML","D":"CSS","jawaban":"A"},
+      "33": {"soal":"Dalam jaringan, VLAN berguna untuk?","A":"Segmentasi jaringan","B":"Membuat database","C":"Running server","D":"Code editing","jawaban":"A"},
+      "34": {"soal":"Bahasa pemrograman untuk high-frequency trading adalah?","A":"C++, Java","B":"PHP, Python","C":"HTML, CSS","D":"C#","jawaban":"A"},
+      "35": {"soal":"Dalam cloud, IaaS menyediakan?","A":"Virtualized infrastructure","B":"Database","C":"UI design","D":"Code editor","jawaban":"A"},
+      "36": {"soal":"Bahasa pemrograman reactive programming adalah?","A":"JavaScript (RxJS), Kotlin","B":"PHP, HTML","C":"Python, CSS","D":"C#","jawaban":"A"},
+      "37": {"soal":"Bahasa pemrograman yang paling efisien untuk sistem embedded adalah?","A":"C, C++","B":"Python","C":"PHP","D":"JavaScript","jawaban":"A"},
+      "38": {"soal":"Dalam keamanan, CSRF digunakan untuk?","A":"Cross-Site Request Forgery attack","B":"Data backup","C":"Server deploy","D":"UI animation","jawaban":"A"},
+      "39": {"soal":"Bahasa untuk scripting game engine Unity adalah?","A":"C#","B":"Python","C":"PHP","D":"JavaScript","jawaban":"A"},
+      "40": {"soal":"Framework backend untuk real-time apps adalah?","A":"Node.js + Socket.io","B":"Laravel","C":"Django","D":"Rails","jawaban":"A"},
+      "41": {"soal":"Protocol untuk remote login aman adalah?","A":"SSH","B":"FTP","C":"HTTP","D":"Telnet","jawaban":"A"},
+      "42": {"soal":"Bahasa pemrograman yang dikompilasi ke WebAssembly adalah?","A":"C, C++, Rust","B":"Python, PHP","C":"HTML, CSS","D":"JavaScript","jawaban":"A"},
+      "43": {"soal":"Bahasa pemrograman yang mendukung async/await adalah?","A":"JavaScript, Python, C#","B":"PHP, HTML","C":"CSS, Java","D":"C++","jawaban":"A"},
+      "44": {"soal":"Bahasa pemrograman untuk automation testing adalah?","A":"Python, Java, JavaScript","B":"PHP, HTML","C":"CSS, Photoshop","D":"Excel","jawaban":"A"},
+      "45": {"soal":"Software untuk monitoring container adalah?","A":"Prometheus, Grafana","B":"Visual Studio","C":"XAMPP","D":"Photoshop","jawaban":"A"},
+      "46": {"soal":"Bahasa pemrograman populer untuk fintech adalah?","A":"Java, Python, C#","B":"PHP","C":"HTML, CSS","D":"C++","jawaban":"A"},
+      "47": {"soal":"Bahasa untuk membuat serverless function adalah?","A":"JavaScript, Python, Go","B":"PHP","C":"HTML","D":"CSS","jawaban":"A"},
+      "48": {"soal":"Bahasa pemrograman untuk scientific computing adalah?","A":"Python, MATLAB, R","B":"PHP","C":"HTML","D":"CSS","jawaban":"A"},
+      "49": {"soal":"Bahasa untuk scripting CI/CD pipelines adalah?","A":"Python, Groovy, YAML","B":"PHP","C":"HTML","D":"CSS","jawaban":"A"},
+      "50": {"soal":"Dalam cloud, load balancer digunakan untuk?","A":"Distribusi traffic ke beberapa server","B":"Database management","C":"Edit code","D":"Deploy container","jawaban":"A"}
+    },
+    "html": {
+      "1": {
+        "soal": "Apa kepanjangan dari HTML?",
+        "A": "Hyper Text Markup Language",
+        "B": "High Transfer Machine Language",
+        "C": "Hyper Tool Markup Language",
+        "D": "Home Text Machine Language",
+        "jawaban": "A"
+      },
+      "2": {
+        "soal": "Tag HTML untuk membuat paragraf adalah?",
+        "A": "<p>",
+        "B": "<div>",
+        "C": "<span>",
+        "D": "<br>",
+        "jawaban": "A"
+      },
+      "3": {
+        "soal": "Tag HTML untuk membuat judul terbesar adalah?",
+        "A": "<h6>",
+        "B": "<h1>",
+        "C": "<head>",
+        "D": "<title>",
+        "jawaban": "B"
+      },
+      "4": {
+        "soal": "Tag untuk membuat baris baru adalah?",
+        "A": "<hr>",
+        "B": "<br>",
+        "C": "<p>",
+        "D": "<line>",
+        "jawaban": "B"
+      },
+      "5": {
+        "soal": "Tag untuk membuat link adalah?",
+        "A": "<a>",
+        "B": "<link>",
+        "C": "<href>",
+        "D": "<url>",
+        "jawaban": "A"
+      },
+      "6": {
+        "soal": "Atribut untuk menentukan tujuan link adalah?",
+        "A": "src",
+        "B": "href",
+        "C": "target",
+        "D": "url",
+        "jawaban": "B"
+      },
+      "7": {
+        "soal": "Tag untuk menampilkan gambar adalah?",
+        "A": "<img>",
+        "B": "<picture>",
+        "C": "<src>",
+        "D": "<image>",
+        "jawaban": "A"
+      },
+      "8": {
+        "soal": "Atribut sumber gambar pada tag img adalah?",
+        "A": "href",
+        "B": "link",
+        "C": "src",
+        "D": "imgsrc",
+        "jawaban": "C"
+      },
+      "9": {
+        "soal": "Tag untuk membuat daftar tidak berurutan adalah?",
+        "A": "<ul>",
+        "B": "<ol>",
+        "C": "<li>",
+        "D": "<dl>",
+        "jawaban": "A"
+      },
+      "10": {
+        "soal": "Tag untuk membuat daftar berurutan adalah?",
+        "A": "<ul>",
+        "B": "<ol>",
+        "C": "<li>",
+        "D": "<list>",
+        "jawaban": "B"
+      },
+      "11": {
+        "soal": "Tag untuk item pada list adalah?",
+        "A": "<item>",
+        "B": "<li>",
+        "C": "<list>",
+        "D": "<ul>",
+        "jawaban": "B"
+      },
+      "12": {
+        "soal": "Tag untuk membuat tabel adalah?",
+        "A": "<tb>",
+        "B": "<table>",
+        "C": "<tr>",
+        "D": "<td>",
+        "jawaban": "B"
+      },
+      "13": {
+        "soal": "Tag untuk baris tabel adalah?",
+        "A": "<td>",
+        "B": "<th>",
+        "C": "<tr>",
+        "D": "<row>",
+        "jawaban": "C"
+      },
+      "14": {
+        "soal": "Tag untuk kolom tabel adalah?",
+        "A": "<td>",
+        "B": "<col>",
+        "C": "<cell>",
+        "D": "<tr>",
+        "jawaban": "A"
+      },
+      "15": {
+        "soal": "Tag untuk header tabel adalah?",
+        "A": "<td>",
+        "B": "<th>",
+        "C": "<head>",
+        "D": "<tablehead>",
+        "jawaban": "B"
+      },
+      "16": {
+        "soal": "Tag untuk membuat form adalah?",
+        "A": "<form>",
+        "B": "<input>",
+        "C": "<submit>",
+        "D": "<button>",
+        "jawaban": "A"
+      },
+      "17": {
+        "soal": "Tag untuk input teks adalah?",
+        "A": "<text>",
+        "B": "<input type='text'>",
+        "C": "<textbox>",
+        "D": "<field>",
+        "jawaban": "B"
+      },
+      "18": {
+        "soal": "Tag untuk membuat tombol adalah?",
+        "A": "<button>",
+        "B": "<btn>",
+        "C": "<submit>",
+        "D": "<click>",
+        "jawaban": "A"
+      },
+      "19": {
+        "soal": "Tag untuk membuat garis horizontal adalah?",
+        "A": "<br>",
+        "B": "<line>",
+        "C": "<hr>",
+        "D": "<border>",
+        "jawaban": "C"
+      },
+      "20": {
+        "soal": "Tag untuk bagian head halaman adalah?",
+        "A": "<header>",
+        "B": "<top>",
+        "C": "<head>",
+        "D": "<metahead>",
+        "jawaban": "C"
+      },
+      "21": {
+        "soal": "Tag untuk judul halaman di tab browser adalah?",
+        "A": "<meta>",
+        "B": "<title>",
+        "C": "<head>",
+        "D": "<header>",
+        "jawaban": "B"
+      },
+      "22": {
+        "soal": "Tag utama isi halaman adalah?",
+        "A": "<body>",
+        "B": "<main>",
+        "C": "<page>",
+        "D": "<content>",
+        "jawaban": "A"
+      },
+      "23": {
+        "soal": "Tag untuk metadata halaman adalah?",
+        "A": "<meta>",
+        "B": "<data>",
+        "C": "<info>",
+        "D": "<head>",
+        "jawaban": "A"
+      },
+      "24": {
+        "soal": "Tag untuk membuat komentar HTML adalah?",
+        "A": "// komentar",
+        "B": "# komentar",
+        "C": "<!-- komentar -->",
+        "D": "/* komentar */",
+        "jawaban": "C"
+      },
+      "25": {
+        "soal": "Tag untuk membuat teks tebal adalah?",
+        "A": "<b>",
+        "B": "<bold>",
+        "C": "<stronger>",
+        "D": "<fat>",
+        "jawaban": "A"
+      },
+      "26": {
+        "soal": "Tag untuk teks miring adalah?",
+        "A": "<italic>",
+        "B": "<i>",
+        "C": "<emphasis>",
+        "D": "<style>",
+        "jawaban": "B"
+      },
+      "27": {
+        "soal": "Tag untuk garis bawah teks adalah?",
+        "A": "<u>",
+        "B": "<underline>",
+        "C": "<line>",
+        "D": "<textline>",
+        "jawaban": "A"
+      },
+      "28": {
+        "soal": "Tag untuk membuat section di HTML5 adalah?",
+        "A": "<part>",
+        "B": "<section>",
+        "C": "<div>",
+        "D": "<block>",
+        "jawaban": "B"
+      },
+      "29": {
+        "soal": "Tag HTML5 untuk navigasi adalah?",
+        "A": "<menu>",
+        "B": "<nav>",
+        "C": "<navigate>",
+        "D": "<linkbar>",
+        "jawaban": "B"
+      },
+      "30": {
+        "soal": "Tag HTML5 untuk footer adalah?",
+        "A": "<foot>",
+        "B": "<bottom>",
+        "C": "<footer>",
+        "D": "<end>",
+        "jawaban": "C"
+      },
+      "31": {
+        "soal": "Tag HTML5 untuk header adalah?",
+        "A": "<header>",
+        "B": "<top>",
+        "C": "<head>",
+        "D": "<heading>",
+        "jawaban": "A"
+      },
+      "32": {
+        "soal": "Tag untuk membuat video adalah?",
+        "A": "<media>",
+        "B": "<movie>",
+        "C": "<video>",
+        "D": "<vid>",
+        "jawaban": "C"
+      },
+      "33": {
+        "soal": "Tag untuk memutar audio adalah?",
+        "A": "<audio>",
+        "B": "<sound>",
+        "C": "<music>",
+        "D": "<mp3>",
+        "jawaban": "A"
+      },
+      "34": {
+        "soal": "Atribut untuk membuka link di tab baru adalah?",
+        "A": "target='_blank'",
+        "B": "newtab",
+        "C": "open='new'",
+        "D": "blank",
+        "jawaban": "A"
+      },
+      "35": {
+        "soal": "Tag untuk membuat dropdown adalah?",
+        "A": "<dropdown>",
+        "B": "<select>",
+        "C": "<list>",
+        "D": "<choice>",
+        "jawaban": "B"
+      },
+      "36": {
+        "soal": "Tag untuk opsi dropdown adalah?",
+        "A": "<opt>",
+        "B": "<choice>",
+        "C": "<option>",
+        "D": "<item>",
+        "jawaban": "C"
+      },
+      "37": {
+        "soal": "Tag untuk textarea adalah?",
+        "A": "<text>",
+        "B": "<textarea>",
+        "C": "<input-text>",
+        "D": "<area>",
+        "jawaban": "B"
+      },
+      "38": {
+        "soal": "Tag untuk label form adalah?",
+        "A": "<label>",
+        "B": "<name>",
+        "C": "<tag>",
+        "D": "<caption>",
+        "jawaban": "A"
+      },
+      "39": {
+        "soal": "Tag untuk iframe adalah?",
+        "A": "<frame>",
+        "B": "<iframe>",
+        "C": "<embedframe>",
+        "D": "<window>",
+        "jawaban": "B"
+      },
+      "40": {
+        "soal": "Tag untuk memasukkan CSS eksternal adalah?",
+        "A": "<css>",
+        "B": "<link>",
+        "C": "<stylelink>",
+        "D": "<import>",
+        "jawaban": "B"
+      },
+      "41": {
+        "soal": "Tag untuk CSS internal adalah?",
+        "A": "<script>",
+        "B": "<style>",
+        "C": "<css>",
+        "D": "<design>",
+        "jawaban": "B"
+      },
+      "42": {
+        "soal": "Tag untuk JavaScript adalah?",
+        "A": "<js>",
+        "B": "<script>",
+        "C": "<javascript>",
+        "D": "<code>",
+        "jawaban": "B"
+      },
+      "43": {
+        "soal": "Atribut alt pada img berfungsi untuk?",
+        "A": "Ukuran gambar",
+        "B": "Teks alternatif gambar",
+        "C": "Link gambar",
+        "D": "Border gambar",
+        "jawaban": "B"
+      },
+      "44": {
+        "soal": "Tag HTML untuk garis pemisah adalah?",
+        "A": "<line>",
+        "B": "<hr>",
+        "C": "<split>",
+        "D": "<divider>",
+        "jawaban": "B"
+      },
+      "45": {
+        "soal": "Tag untuk membuat block umum adalah?",
+        "A": "<block>",
+        "B": "<div>",
+        "C": "<group>",
+        "D": "<section>",
+        "jawaban": "B"
+      },
+      "46": {
+        "soal": "Tag inline umum untuk teks adalah?",
+        "A": "<span>",
+        "B": "<inline>",
+        "C": "<text>",
+        "D": "<div>",
+        "jawaban": "A"
+      },
+      "47": {
+        "soal": "Tag HTML untuk progress bar adalah?",
+        "A": "<bar>",
+        "B": "<progress>",
+        "C": "<load>",
+        "D": "<percent>",
+        "jawaban": "B"
+      },
+      "48": {
+        "soal": "Tag untuk meter value adalah?",
+        "A": "<meter>",
+        "B": "<value>",
+        "C": "<range>",
+        "D": "<bar>",
+        "jawaban": "A"
+      },
+      "49": {
+        "soal": "Tag untuk daftar definisi adalah?",
+        "A": "<dl>",
+        "B": "<ol>",
+        "C": "<ul>",
+        "D": "<li>",
+        "jawaban": "A"
+      },
+      "50": {
+        "soal": "Tag istilah pada daftar definisi adalah?",
+        "A": "<dt>",
+        "B": "<dd>",
+        "C": "<term>",
+        "D": "<li>",
+        "jawaban": "A"
+      },
+      "51": {
+        "soal": "Tag deskripsi pada daftar definisi adalah?",
+        "A": "<desc>",
+        "B": "<dd>",
+        "C": "<detail>",
+        "D": "<dl>",
+        "jawaban": "B"
+      },
+      "52": {
+        "soal": "Tag untuk menandai teks penting adalah?",
+        "A": "<important>",
+        "B": "<strong>",
+        "C": "<bold>",
+        "D": "<b>",
+        "jawaban": "B"
+      },
+      "53": {
+        "soal": "Tag untuk penekanan teks adalah?",
+        "A": "<em>",
+        "B": "<italic>",
+        "C": "<focus>",
+        "D": "<mark>",
+        "jawaban": "A"
+      },
+      "54": {
+        "soal": "Tag untuk menyorot teks adalah?",
+        "A": "<mark>",
+        "B": "<highlight>",
+        "C": "<color>",
+        "D": "<span>",
+        "jawaban": "A"
+      },
+      "55": {
+        "soal": "Tag untuk teks kecil adalah?",
+        "A": "<tiny>",
+        "B": "<small>",
+        "C": "<mini>",
+        "D": "<less>",
+        "jawaban": "B"
+      },
+      "56": {
+        "soal": "Tag untuk teks dicoret adalah?",
+        "A": "<cut>",
+        "B": "<del>",
+        "C": "<strike>",
+        "D": "<remove>",
+        "jawaban": "B"
+      },
+      "57": {
+        "soal": "Tag untuk teks superscript adalah?",
+        "A": "<sup>",
+        "B": "<super>",
+        "C": "<top>",
+        "D": "<power>",
+        "jawaban": "A"
+      },
+      "58": {
+        "soal": "Tag untuk teks subscript adalah?",
+        "A": "<sub>",
+        "B": "<down>",
+        "C": "<low>",
+        "D": "<bottom>",
+        "jawaban": "A"
+      },
+      "59": {
+        "soal": "Tag untuk memasukkan file eksternal script adalah?",
+        "A": "<script src='...'>",
+        "B": "<js>",
+        "C": "<code>",
+        "D": "<import>",
+        "jawaban": "A"
+      },
+      "60": {
+        "soal": "Tag untuk container konten utama HTML5 adalah?",
+        "A": "<main>",
+        "B": "<body>",
+        "C": "<content>",
+        "D": "<section>",
+        "jawaban": "A"
+      },
+      "61": {
+        "soal": "Tag untuk artikel mandiri adalah?",
+        "A": "<article>",
+        "B": "<post>",
+        "C": "<blog>",
+        "D": "<news>",
+        "jawaban": "A"
+      },
+      "62": {
+        "soal": "Tag untuk sidebar adalah?",
+        "A": "<side>",
+        "B": "<aside>",
+        "C": "<menu>",
+        "D": "<panel>",
+        "jawaban": "B"
+      },
+      "63": {
+        "soal": "Tag untuk grup heading adalah?",
+        "A": "<group>",
+        "B": "<hgroup>",
+        "C": "<heading>",
+        "D": "<titles>",
+        "jawaban": "B"
+      },
+      "64": {
+        "soal": "Tag untuk menyisipkan objek adalah?",
+        "A": "<embed>",
+        "B": "<object>",
+        "C": "<insert>",
+        "D": "<media>",
+        "jawaban": "B"
+      },
+      "65": {
+        "soal": "Tag untuk embed media adalah?",
+        "A": "<embed>",
+        "B": "<object>",
+        "C": "<media>",
+        "D": "<plugin>",
+        "jawaban": "A"
+      },
+      "66": {
+        "soal": "Tag untuk menampilkan kode adalah?",
+        "A": "<code>",
+        "B": "<program>",
+        "C": "<script>",
+        "D": "<precode>",
+        "jawaban": "A"
+      },
+      "67": {
+        "soal": "Tag untuk teks preformatted adalah?",
+        "A": "<format>",
+        "B": "<pre>",
+        "C": "<text>",
+        "D": "<code>",
+        "jawaban": "B"
+      },
+      "68": {
+        "soal": "Tag untuk keyboard input adalah?",
+        "A": "<kbd>",
+        "B": "<key>",
+        "C": "<input>",
+        "D": "<type>",
+        "jawaban": "A"
+      },
+      "69": {
+        "soal": "Tag untuk variabel adalah?",
+        "A": "<var>",
+        "B": "<variable>",
+        "C": "<v>",
+        "D": "<data>",
+        "jawaban": "A"
+      },
+      "70": {
+        "soal": "Tag untuk sampel output program adalah?",
+        "A": "<output>",
+        "B": "<samp>",
+        "C": "<result>",
+        "D": "<print>",
+        "jawaban": "B"
+      },
+      "71": {
+        "soal": "Tag untuk caption tabel adalah?",
+        "A": "<caption>",
+        "B": "<title>",
+        "C": "<thead>",
+        "D": "<label>",
+        "jawaban": "A"
+      },
+      "72": {
+        "soal": "Tag untuk header tabel adalah?",
+        "A": "<thead>",
+        "B": "<th>",
+        "C": "<top>",
+        "D": "<tr>",
+        "jawaban": "A"
+      },
+      "73": {
+        "soal": "Tag untuk body tabel adalah?",
+        "A": "<tbody>",
+        "B": "<tablebody>",
+        "C": "<body>",
+        "D": "<tr>",
+        "jawaban": "A"
+      },
+      "74": {
+        "soal": "Tag untuk footer tabel adalah?",
+        "A": "<tfoot>",
+        "B": "<foot>",
+        "C": "<bottom>",
+        "D": "<tablefoot>",
+        "jawaban": "A"
+      },
+      "75": {
+        "soal": "Tag untuk grup kolom tabel adalah?",
+        "A": "<colgroup>",
+        "B": "<groupcol>",
+        "C": "<cols>",
+        "D": "<colset>",
+        "jawaban": "A"
+      },
+      "76": {
+        "soal": "Tag untuk kolom tabel adalah?",
+        "A": "<col>",
+        "B": "<column>",
+        "C": "<td>",
+        "D": "<tr>",
+        "jawaban": "A"
+      },
+      "77": {
+        "soal": "Tag HTML untuk detail expandable adalah?",
+        "A": "<details>",
+        "B": "<expand>",
+        "C": "<info>",
+        "D": "<more>",
+        "jawaban": "A"
+      },
+      "78": {
+        "soal": "Tag judul untuk details adalah?",
+        "A": "<summary>",
+        "B": "<title>",
+        "C": "<head>",
+        "D": "<label>",
+        "jawaban": "A"
+      },
+      "79": {
+        "soal": "Tag untuk dialog box adalah?",
+        "A": "<dialog>",
+        "B": "<box>",
+        "C": "<modal>",
+        "D": "<popup>",
+        "jawaban": "A"
+      },
+      "80": {
+        "soal": "Tag untuk template HTML adalah?",
+        "A": "<template>",
+        "B": "<model>",
+        "C": "<layout>",
+        "D": "<pattern>",
+        "jawaban": "A"
+      },
+      "81": {
+        "soal": "Tag untuk data dengan nilai mesin adalah?",
+        "A": "<data>",
+        "B": "<value>",
+        "C": "<dataset>",
+        "D": "<info>",
+        "jawaban": "A"
+      },
+      "82": {
+        "soal": "Tag untuk waktu atau tanggal adalah?",
+        "A": "<date>",
+        "B": "<time>",
+        "C": "<clock>",
+        "D": "<calendar>",
+        "jawaban": "B"
+      },
+      "83": {
+        "soal": "Tag untuk progress bar adalah?",
+        "A": "<progress>",
+        "B": "<loading>",
+        "C": "<percent>",
+        "D": "<meter>",
+        "jawaban": "A"
+      },
+      "84": {
+        "soal": "Tag untuk meter nilai adalah?",
+        "A": "<meter>",
+        "B": "<progress>",
+        "C": "<value>",
+        "D": "<bar>",
+        "jawaban": "A"
+      },
+      "85": {
+        "soal": "Tag untuk gambar responsif HTML5 adalah?",
+        "A": "<picture>",
+        "B": "<imgset>",
+        "C": "<image>",
+        "D": "<srcset>",
+        "jawaban": "A"
+      },
+      "86": {
+        "soal": "Atribut untuk gambar responsif adalah?",
+        "A": "setsrc",
+        "B": "srcset",
+        "C": "imgset",
+        "D": "pictureset",
+        "jawaban": "B"
+      },
+      "87": {
+        "soal": "Tag untuk area pada image map adalah?",
+        "A": "<area>",
+        "B": "<maparea>",
+        "C": "<zone>",
+        "D": "<part>",
+        "jawaban": "A"
+      },
+      "88": {
+        "soal": "Tag untuk membuat image map adalah?",
+        "A": "<imagemap>",
+        "B": "<map>",
+        "C": "<imgmap>",
+        "D": "<zone>",
+        "jawaban": "B"
+      },
+      "89": {
+        "soal": "Tag untuk membuat fieldset pada form adalah?",
+        "A": "<fieldset>",
+        "B": "<formgroup>",
+        "C": "<group>",
+        "D": "<set>",
+        "jawaban": "A"
+      },
+      "90": {
+        "soal": "Tag judul fieldset adalah?",
+        "A": "<title>",
+        "B": "<legend>",
+        "C": "<label>",
+        "D": "<caption>",
+        "jawaban": "B"
+      },
+      "91": {
+        "soal": "Tag untuk output hasil form adalah?",
+        "A": "<output>",
+        "B": "<result>",
+        "C": "<print>",
+        "D": "<show>",
+        "jawaban": "A"
+      },
+      "92": {
+        "soal": "Tag untuk datalist pada input adalah?",
+        "A": "<list>",
+        "B": "<datalist>",
+        "C": "<data>",
+        "D": "<options>",
+        "jawaban": "B"
+      },
+      "93": {
+        "soal": "Tag untuk opsi datalist adalah?",
+        "A": "<option>",
+        "B": "<choice>",
+        "C": "<select>",
+        "D": "<item>",
+        "jawaban": "A"
+      },
+      "94": {
+        "soal": "Tag untuk meter progress adalah?",
+        "A": "<meter>",
+        "B": "<progress>",
+        "C": "<bar>",
+        "D": "<percent>",
+        "jawaban": "A"
+      },
+      "95": {
+        "soal": "Tag untuk konten fallback pada video adalah?",
+        "A": "<source>",
+        "B": "<track>",
+        "C": "<fallback>",
+        "D": "<alt>",
+        "jawaban": "A"
+      },
+      "96": {
+        "soal": "Tag untuk subtitle video adalah?",
+        "A": "<track>",
+        "B": "<subtitle>",
+        "C": "<texttrack>",
+        "D": "<caption>",
+        "jawaban": "A"
+      },
+      "97": {
+        "soal": "Tag untuk kontainer SVG di HTML adalah?",
+        "A": "<svg>",
+        "B": "<vector>",
+        "C": "<graphic>",
+        "D": "<shape>",
+        "jawaban": "A"
+      },
+      "98": {
+        "soal": "Tag untuk grafik canvas adalah?",
+        "A": "<draw>",
+        "B": "<canvas>",
+        "C": "<graphic>",
+        "D": "<paint>",
+        "jawaban": "B"
+      },
+      "99": {
+        "soal": "Atribut id berfungsi untuk?",
+        "A": "Memberi identitas unik elemen",
+        "B": "Mengubah warna",
+        "C": "Membuat link",
+        "D": "Menambah ukuran",
+        "jawaban": "A"
+      },
+      "100": {
+        "soal": "Atribut class berfungsi untuk?",
+        "A": "Memberi style CSS pada banyak elemen",
+        "B": "Menambah gambar",
+        "C": "Membuat tabel",
+        "D": "Menghapus tag",
+        "jawaban": "A"
+      },
+      "html_hard": {
+        "101": {
+          "soal": "Atribut pada tag <script> yang membuat script dijalankan setelah parsing HTML selesai adalah?",
+          "A": "async",
+          "B": "defer",
+          "C": "delay",
+          "D": "wait",
+          "jawaban": "B"
+        },
+        "102": {
+          "soal": "Perbedaan utama async dan defer pada script adalah?",
+          "A": "Async menjalankan script segera setelah selesai download",
+          "B": "Defer menjalankan script sebelum HTML",
+          "C": "Async lebih lambat dari defer",
+          "D": "Defer menghentikan parsing",
+          "jawaban": "A"
+        },
+        "103": {
+          "soal": "Tag HTML5 untuk konten navigasi utama adalah?",
+          "A": "<menu>",
+          "B": "<nav>",
+          "C": "<navigate>",
+          "D": "<navigation>",
+          "jawaban": "B"
+        },
+        "104": {
+          "soal": "Tag HTML yang digunakan untuk membungkus konten yang berdiri sendiri adalah?",
+          "A": "<section>",
+          "B": "<article>",
+          "C": "<div>",
+          "D": "<content>",
+          "jawaban": "B"
+        },
+        "105": {
+          "soal": "Atribut loading='lazy' digunakan pada elemen apa?",
+          "A": "<script>",
+          "B": "<img>",
+          "C": "<style>",
+          "D": "<form>",
+          "jawaban": "B"
+        },
+        "106": {
+          "soal": "Tag untuk menentukan sumber video atau audio alternatif adalah?",
+          "A": "<media>",
+          "B": "<source>",
+          "C": "<alt>",
+          "D": "<track>",
+          "jawaban": "B"
+        },
+        "107": {
+          "soal": "Tag HTML yang digunakan untuk menyimpan template yang tidak langsung dirender adalah?",
+          "A": "<pattern>",
+          "B": "<layout>",
+          "C": "<template>",
+          "D": "<model>",
+          "jawaban": "C"
+        },
+        "108": {
+          "soal": "Tag HTML untuk grafik berbasis JavaScript adalah?",
+          "A": "<svg>",
+          "B": "<canvas>",
+          "C": "<draw>",
+          "D": "<graphic>",
+          "jawaban": "B"
+        },
+        "109": {
+          "soal": "Tag yang digunakan untuk memberikan teks caption pada video adalah?",
+          "A": "<track>",
+          "B": "<caption>",
+          "C": "<text>",
+          "D": "<subtitle>",
+          "jawaban": "A"
+        },
+        "110": {
+          "soal": "Atribut untuk membuat form dikirim menggunakan metode POST adalah?",
+          "A": "method='post'",
+          "B": "type='post'",
+          "C": "send='post'",
+          "D": "action='post'",
+          "jawaban": "A"
+        },
+        "111": {
+          "soal": "Atribut required pada input berfungsi untuk?",
+          "A": "Mewajibkan field diisi",
+          "B": "Menghapus field",
+          "C": "Menyembunyikan field",
+          "D": "Mengunci field",
+          "jawaban": "A"
+        },
+        "112": {
+          "soal": "Atribut placeholder pada input berfungsi untuk?",
+          "A": "Label input",
+          "B": "Contoh teks di dalam input",
+          "C": "Mengunci input",
+          "D": "Menentukan ukuran",
+          "jawaban": "B"
+        },
+        "113": {
+          "soal": "Atribut pattern pada input digunakan untuk?",
+          "A": "Validasi regex",
+          "B": "Warna input",
+          "C": "Ukuran input",
+          "D": "Menyembunyikan input",
+          "jawaban": "A"
+        },
+        "114": {
+          "soal": "Tag HTML untuk membuat form validation otomatis adalah?",
+          "A": "<validate>",
+          "B": "<input>",
+          "C": "<check>",
+          "D": "<verify>",
+          "jawaban": "B"
+        },
+        "115": {
+          "soal": "Atribut autocomplete digunakan untuk?",
+          "A": "Menghapus data",
+          "B": "Mengisi otomatis data sebelumnya",
+          "C": "Mengunci form",
+          "D": "Menutup form",
+          "jawaban": "B"
+        },
+        "116": {
+          "soal": "Tag HTML untuk konten samping seperti sidebar adalah?",
+          "A": "<aside>",
+          "B": "<side>",
+          "C": "<panel>",
+          "D": "<menu>",
+          "jawaban": "A"
+        },
+        "117": {
+          "soal": "Elemen HTML yang membantu SEO dengan struktur halaman disebut?",
+          "A": "Semantic HTML",
+          "B": "Structured CSS",
+          "C": "HTML Grid",
+          "D": "Smart Tag",
+          "jawaban": "A"
+        },
+        "118": {
+          "soal": "Tag yang digunakan untuk grup konten bertema adalah?",
+          "A": "<section>",
+          "B": "<theme>",
+          "C": "<topic>",
+          "D": "<group>",
+          "jawaban": "A"
+        },
+        "119": {
+          "soal": "Tag untuk teks kutipan panjang adalah?",
+          "A": "<quote>",
+          "B": "<blockquote>",
+          "C": "<textquote>",
+          "D": "<longquote>",
+          "jawaban": "B"
+        },
+        "120": {
+          "soal": "Tag untuk kutipan singkat adalah?",
+          "A": "<q>",
+          "B": "<quote>",
+          "C": "<short>",
+          "D": "<cite>",
+          "jawaban": "A"
+        },
+        "121": {
+          "soal": "Tag untuk sumber kutipan atau referensi adalah?",
+          "A": "<cite>",
+          "B": "<source>",
+          "C": "<ref>",
+          "D": "<author>",
+          "jawaban": "A"
+        },
+        "122": {
+          "soal": "Tag untuk menampilkan waktu atau tanggal adalah?",
+          "A": "<date>",
+          "B": "<clock>",
+          "C": "<time>",
+          "D": "<calendar>",
+          "jawaban": "C"
+        },
+        "123": {
+          "soal": "Atribut datetime pada <time> berfungsi untuk?",
+          "A": "Menentukan format mesin waktu",
+          "B": "Menentukan zona waktu",
+          "C": "Menentukan warna waktu",
+          "D": "Menentukan ukuran waktu",
+          "jawaban": "A"
+        },
+        "124": {
+          "soal": "Tag HTML untuk mendefinisikan singkatan adalah?",
+          "A": "<abbr>",
+          "B": "<short>",
+          "C": "<acronym>",
+          "D": "<shorttext>",
+          "jawaban": "A"
+        },
+        "125": {
+          "soal": "Atribut title pada <abbr> digunakan untuk?",
+          "A": "Memberikan arti singkatan",
+          "B": "Mengubah warna",
+          "C": "Menyembunyikan teks",
+          "D": "Menghapus teks",
+          "jawaban": "A"
+        },
+        "126": {
+          "soal": "Tag HTML untuk alamat kontak adalah?",
+          "A": "<contact>",
+          "B": "<address>",
+          "C": "<location>",
+          "D": "<info>",
+          "jawaban": "B"
+        },
+        "127": {
+          "soal": "Tag HTML untuk menyimpan kode komputer adalah?",
+          "A": "<code>",
+          "B": "<program>",
+          "C": "<dev>",
+          "D": "<syntax>",
+          "jawaban": "A"
+        },
+        "128": {
+          "soal": "Tag untuk menampilkan output dari perhitungan adalah?",
+          "A": "<result>",
+          "B": "<output>",
+          "C": "<print>",
+          "D": "<calc>",
+          "jawaban": "B"
+        },
+        "129": {
+          "soal": "Tag HTML untuk menyimpan teks yang dapat diedit pengguna adalah?",
+          "A": "<edit>",
+          "B": "<input>",
+          "C": "<textarea>",
+          "D": "<textedit>",
+          "jawaban": "C"
+        },
+        "130": {
+          "soal": "Atribut contenteditable digunakan untuk?",
+          "A": "Membuat elemen bisa diedit",
+          "B": "Menyembunyikan elemen",
+          "C": "Menghapus konten",
+          "D": "Menambah elemen",
+          "jawaban": "A"
+        },
+        "131": {
+          "soal": "Atribut draggable digunakan untuk?",
+          "A": "Menghapus elemen",
+          "B": "Menarik elemen dengan mouse",
+          "C": "Mengubah ukuran elemen",
+          "D": "Mengunci elemen",
+          "jawaban": "B"
+        },
+        "132": {
+          "soal": "API HTML untuk menyimpan data kecil di browser adalah?",
+          "A": "BrowserStorage",
+          "B": "LocalStorage",
+          "C": "ClientData",
+          "D": "HTMLStorage",
+          "jawaban": "B"
+        },
+        "133": {
+          "soal": "Perbedaan localStorage dan sessionStorage adalah?",
+          "A": "LocalStorage tidak hilang saat tab ditutup",
+          "B": "SessionStorage lebih besar",
+          "C": "LocalStorage hanya sementara",
+          "D": "SessionStorage permanen",
+          "jawaban": "A"
+        },
+        "134": {
+          "soal": "Atribut rel='stylesheet' digunakan pada tag apa?",
+          "A": "<style>",
+          "B": "<link>",
+          "C": "<css>",
+          "D": "<script>",
+          "jawaban": "B"
+        },
+        "135": {
+          "soal": "Atribut media pada link CSS digunakan untuk?",
+          "A": "Menentukan jenis perangkat",
+          "B": "Menentukan warna",
+          "C": "Menentukan ukuran file",
+          "D": "Menentukan script",
+          "jawaban": "A"
+        },
+        "136": {
+          "soal": "Tag HTML untuk gambar SVG inline adalah?",
+          "A": "<vector>",
+          "B": "<svg>",
+          "C": "<graphic>",
+          "D": "<draw>",
+          "jawaban": "B"
+        },
+        "137": {
+          "soal": "Elemen HTML untuk grup pilihan radio adalah?",
+          "A": "<fieldset>",
+          "B": "<group>",
+          "C": "<options>",
+          "D": "<radio>",
+          "jawaban": "A"
+        },
+        "138": {
+          "soal": "Atribut name pada input radio berfungsi untuk?",
+          "A": "Mengelompokkan radio button",
+          "B": "Mengubah warna",
+          "C": "Menambah ukuran",
+          "D": "Menyembunyikan input",
+          "jawaban": "A"
+        },
+        "139": {
+          "soal": "Tag HTML untuk teks yang disorot hasil pencarian adalah?",
+          "A": "<highlight>",
+          "B": "<mark>",
+          "C": "<focus>",
+          "D": "<color>",
+          "jawaban": "B"
+        },
+        "140": {
+          "soal": "Tag HTML untuk menunjukkan perubahan teks baru adalah?",
+          "A": "<ins>",
+          "B": "<new>",
+          "C": "<add>",
+          "D": "<update>",
+          "jawaban": "A"
+        },
+        "141": {
+          "soal": "Tag HTML untuk teks yang dihapus adalah?",
+          "A": "<remove>",
+          "B": "<delete>",
+          "C": "<del>",
+          "D": "<erase>",
+          "jawaban": "C"
+        },
+        "142": {
+          "soal": "Tag HTML untuk mendefinisikan istilah dalam dokumen adalah?",
+          "A": "<term>",
+          "B": "<dfn>",
+          "C": "<define>",
+          "D": "<meaning>",
+          "jawaban": "B"
+        },
+        "143": {
+          "soal": "Tag HTML untuk kontainer utama halaman adalah?",
+          "A": "<main>",
+          "B": "<container>",
+          "C": "<content>",
+          "D": "<root>",
+          "jawaban": "A"
+        },
+        "144": {
+          "soal": "Tag HTML untuk menampilkan teks dengan arah berbeda adalah?",
+          "A": "<bdi>",
+          "B": "<dir>",
+          "C": "<rtl>",
+          "D": "<textdir>",
+          "jawaban": "A"
+        },
+        "145": {
+          "soal": "Tag HTML untuk mengisolasi teks bidirectional adalah?",
+          "A": "<bdi>",
+          "B": "<bdo>",
+          "C": "<dir>",
+          "D": "<rtl>",
+          "jawaban": "B"
+        },
+        "146": {
+          "soal": "Atribut dir='rtl' digunakan untuk?",
+          "A": "Teks dari kanan ke kiri",
+          "B": "Teks dari kiri ke kanan",
+          "C": "Teks vertikal",
+          "D": "Teks diagonal",
+          "jawaban": "A"
+        },
+        "147": {
+          "soal": "Tag HTML untuk memasukkan file PDF atau plugin adalah?",
+          "A": "<embed>",
+          "B": "<insert>",
+          "C": "<object>",
+          "D": "<plugin>",
+          "jawaban": "C"
+        },
+        "148": {
+          "soal": "Tag HTML untuk metadata SEO seperti deskripsi adalah?",
+          "A": "<meta>",
+          "B": "<data>",
+          "C": "<info>",
+          "D": "<seo>",
+          "jawaban": "A"
+        },
+        "149": {
+          "soal": "Atribut charset pada meta digunakan untuk?",
+          "A": "Menentukan encoding karakter",
+          "B": "Menentukan warna",
+          "C": "Menentukan ukuran",
+          "D": "Menentukan script",
+          "jawaban": "A"
+        },
+        "150": {
+          "soal": "Charset UTF-8 digunakan untuk?",
+          "A": "Mendukung banyak karakter bahasa",
+          "B": "Menambah kecepatan CSS",
+          "C": "Menghapus script",
+          "D": "Mengubah HTML",
+          "jawaban": "A"
+        },
+        "151": {
+          "soal": "Tag HTML untuk membuat area klik pada gambar adalah?",
+          "A": "<map>",
+          "B": "<area>",
+          "C": "<imagemap>",
+          "D": "<clickmap>",
+          "jawaban": "B"
+        },
+        "152": {
+          "soal": "Atribut usemap digunakan pada tag apa?",
+          "A": "<map>",
+          "B": "<img>",
+          "C": "<area>",
+          "D": "<svg>",
+          "jawaban": "B"
+        },
+        "153": {
+          "soal": "Tag HTML untuk progress download adalah?",
+          "A": "<progress>",
+          "B": "<loading>",
+          "C": "<bar>",
+          "D": "<percent>",
+          "jawaban": "A"
+        },
+        "154": {
+          "soal": "Tag meter digunakan untuk?",
+          "A": "Nilai dalam rentang tertentu",
+          "B": "Loading file",
+          "C": "Download file",
+          "D": "Upload file",
+          "jawaban": "A"
+        },
+        "155": {
+          "soal": "Tag HTML untuk menampilkan dialog popup adalah?",
+          "A": "<dialog>",
+          "B": "<popup>",
+          "C": "<modal>",
+          "D": "<window>",
+          "jawaban": "A"
+        },
+        "156": {
+          "soal": "Metode JavaScript untuk membuka dialog HTML adalah?",
+          "A": "showModal()",
+          "B": "openDialog()",
+          "C": "popup()",
+          "D": "dialogOpen()",
+          "jawaban": "A"
+        },
+        "157": {
+          "soal": "Tag HTML untuk menentukan sumber gambar responsif adalah?",
+          "A": "<picture>",
+          "B": "<imgset>",
+          "C": "<image>",
+          "D": "<responsive>",
+          "jawaban": "A"
+        },
+        "158": {
+          "soal": "Atribut sizes pada gambar responsif digunakan untuk?",
+          "A": "Menentukan ukuran gambar untuk viewport",
+          "B": "Menentukan warna",
+          "C": "Menentukan format",
+          "D": "Menentukan server",
+          "jawaban": "A"
+        },
+        "159": {
+          "soal": "Tag HTML untuk fallback konten pada browser lama adalah?",
+          "A": "<noscript>",
+          "B": "<fallback>",
+          "C": "<old>",
+          "D": "<legacy>",
+          "jawaban": "A"
+        },
+        "160": {
+          "soal": "Tag HTML untuk skrip client-side adalah?",
+          "A": "<script>",
+          "B": "<client>",
+          "C": "<run>",
+          "D": "<code>",
+          "jawaban": "A"
+        },
+        "161": {
+          "soal": "Atribut crossorigin pada script digunakan untuk?",
+          "A": "Mengatur CORS",
+          "B": "Mengatur warna",
+          "C": "Mengatur ukuran",
+          "D": "Mengatur link",
+          "jawaban": "A"
+        },
+        "162": {
+          "soal": "Atribut integrity pada script digunakan untuk?",
+          "A": "Validasi keamanan file",
+          "B": "Mengubah warna",
+          "C": "Mengubah ukuran",
+          "D": "Menghapus script",
+          "jawaban": "A"
+        },
+        "163": {
+          "soal": "Atribut hidden digunakan untuk?",
+          "A": "Menyembunyikan elemen",
+          "B": "Menghapus elemen",
+          "C": "Mengunci elemen",
+          "D": "Menambah elemen",
+          "jawaban": "A"
+        },
+        "164": {
+          "soal": "Atribut tabindex digunakan untuk?",
+          "A": "Urutan fokus keyboard",
+          "B": "Ukuran tab",
+          "C": "Menghapus tab",
+          "D": "Membuat tabel",
+          "jawaban": "A"
+        },
+        "165": {
+          "soal": "Atribut spellcheck digunakan untuk?",
+          "A": "Memeriksa ejaan",
+          "B": "Memeriksa ukuran",
+          "C": "Memeriksa warna",
+          "D": "Memeriksa script",
+          "jawaban": "A"
+        },
+        "166": {
+          "soal": "Atribut translate digunakan untuk?",
+          "A": "Mengizinkan browser menerjemahkan teks",
+          "B": "Mengubah warna teks",
+          "C": "Mengubah ukuran teks",
+          "D": "Menghapus teks",
+          "jawaban": "A"
+        },
+        "167": {
+          "soal": "Tag HTML untuk ikon halaman website adalah?",
+          "A": "<icon>",
+          "B": "<favicon>",
+          "C": "<link rel='icon'>",
+          "D": "<logo>",
+          "jawaban": "C"
+        },
+        "168": {
+          "soal": "File favicon biasanya berekstensi?",
+          "A": ".ico",
+          ".B": ".img",
+          "C": ".html",
+          "D": ".svg",
+          "jawaban": "A"
+        },
+        "169": {
+          "soal": "Atribut download pada link digunakan untuk?",
+          "A": "Mengunduh file",
+          "B": "Membuka file",
+          "C": "Menghapus file",
+          "D": "Menyembunyikan file",
+          "jawaban": "A"
+        },
+        "170": {
+          "soal": "Atribut target='_self' berarti?",
+          "A": "Buka di tab yang sama",
+          "B": "Buka tab baru",
+          "C": "Buka popup",
+          "D": "Buka frame baru",
+          "jawaban": "A"
+        },
+        "171": {
+          "soal": "Atribut sandbox digunakan pada?",
+          "A": "iframe",
+          "B": "img",
+          "C": "video",
+          "D": "script",
+          "jawaban": "A"
+        },
+        "172": {
+          "soal": "Sandbox iframe digunakan untuk?",
+          "A": "Meningkatkan keamanan",
+          "B": "Mempercepat HTML",
+          "C": "Mengubah warna",
+          "D": "Menghapus script",
+          "jawaban": "A"
+        },
+        "173": {
+          "soal": "Tag HTML untuk daftar menu perintah adalah?",
+          "A": "<menu>",
+          "B": "<commands>",
+          "C": "<action>",
+          "D": "<navmenu>",
+          "jawaban": "A"
+        },
+        "174": {
+          "soal": "Tag HTML untuk menentukan konteks menu adalah?",
+          "A": "<menuitem>",
+          "B": "<contextmenu>",
+          "C": "<option>",
+          "D": "<list>",
+          "jawaban": "B"
+        },
+        "175": {
+          "soal": "Tag HTML untuk menampilkan daftar file upload adalah?",
+          "A": "<input type='file'>",
+          "B": "<file>",
+          "C": "<upload>",
+          "D": "<datafile>",
+          "jawaban": "A"
+        },
+        "176": {
+          "soal": "Atribut multiple pada input file berarti?",
+          "A": "Upload banyak file",
+          "B": "Upload satu file",
+          "C": "Upload otomatis",
+          "D": "Upload cepat",
+          "jawaban": "A"
+        },
+        "177": {
+          "soal": "Atribut accept pada input file digunakan untuk?",
+          "A": "Membatasi tipe file",
+          "B": "Menghapus file",
+          "C": "Mengganti nama file",
+          "D": "Mengunci file",
+          "jawaban": "A"
+        },
+        "178": {
+          "soal": "Tag HTML untuk progress upload biasanya menggunakan?",
+          "A": "<progress>",
+          "B": "<bar>",
+          "C": "<meter>",
+          "D": "<load>",
+          "jawaban": "A"
+        },
+        "179": {
+          "soal": "Tag HTML untuk metadata Open Graph biasanya memakai?",
+          "A": "<meta>",
+          "B": "<data>",
+          "C": "<seo>",
+          "D": "<info>",
+          "jawaban": "A"
+        },
+        "180": {
+          "soal": "Open Graph biasanya digunakan untuk?",
+          "A": "Preview link di media sosial",
+          "B": "Mempercepat website",
+          "C": "Mengubah warna website",
+          "D": "Menghapus HTML",
+          "jawaban": "A"
+        },
+        "181": {
+          "soal": "Tag HTML untuk kontainer script template modern biasanya?",
+          "A": "<template>",
+          "B": "<module>",
+          "C": "<layout>",
+          "D": "<block>",
+          "jawaban": "A"
+        },
+        "182": {
+          "soal": "Type module pada script digunakan untuk?",
+          "A": "JavaScript module ES6",
+          "B": "CSS module",
+          "C": "HTML module",
+          "D": "Image module",
+          "jawaban": "A"
+        },
+        "183": {
+          "soal": "Tag HTML untuk fallback script jika JS mati adalah?",
+          "A": "<noscript>",
+          "B": "<fallback>",
+          "C": "<scriptoff>",
+          "D": "<backup>",
+          "jawaban": "A"
+        },
+        "184": {
+          "soal": "Tag HTML untuk menampilkan daftar data dinamis adalah?",
+          "A": "<datalist>",
+          "B": "<list>",
+          "C": "<options>",
+          "D": "<dataset>",
+          "jawaban": "A"
+        },
+        "185": {
+          "soal": "Atribut list pada input digunakan untuk?",
+          "A": "Menghubungkan datalist",
+          "B": "Menghapus datalist",
+          "C": "Menambah datalist",
+          "D": "Mengunci datalist",
+          "jawaban": "A"
+        },
+        "186": {
+          "soal": "Tag HTML untuk menampilkan nama file script eksternal adalah?",
+          "A": "<script src>",
+          "B": "<import>",
+          "C": "<module>",
+          "D": "<code>",
+          "jawaban": "A"
+        },
+        "187": {
+          "soal": "Tag HTML untuk membuat elemen drag drop area biasanya?",
+          "A": "<div>",
+          "B": "<drag>",
+          "C": "<drop>",
+          "D": "<area>",
+          "jawaban": "A"
+        },
+        "188": {
+          "soal": "Atribut data-* pada HTML digunakan untuk?",
+          "A": "Custom data attribute",
+          "B": "Database HTML",
+          "C": "Download data",
+          "D": "Upload data",
+          "jawaban": "A"
+        },
+        "189": {
+          "soal": "Contoh atribut data custom adalah?",
+          "A": "data-id",
+          "B": "custom-id",
+          "C": "attr-id",
+          "D": "meta-id",
+          "jawaban": "A"
+        },
+        "190": {
+          "soal": "Tag HTML untuk konten fallback browser lama biasanya?",
+          "A": "<noscript>",
+          "B": "<old>",
+          "C": "<legacy>",
+          "D": "<fallback>",
+          "jawaban": "A"
+        },
+        "191": {
+          "soal": "Atribut role dalam HTML digunakan untuk?",
+          "A": "Accessibility",
+          "B": "SEO",
+          "C": "CSS",
+          "D": "JavaScript",
+          "jawaban": "A"
+        },
+        "192": {
+          "soal": "ARIA dalam HTML digunakan untuk?",
+          "A": "Aksesibilitas pembaca layar",
+          "B": "Kecepatan HTML",
+          "C": "SEO",
+          "D": "Animasi",
+          "jawaban": "A"
+        },
+        "193": {
+          "soal": "Contoh atribut ARIA adalah?",
+          "A": "aria-label",
+          "B": "aria-css",
+          "C": "aria-js",
+          "D": "aria-style",
+          "jawaban": "A"
+        },
+        "194": {
+          "soal": "Tag HTML untuk grafik vektor tanpa JS adalah?",
+          "A": "<svg>",
+          "B": "<canvas>",
+          "C": "<vector>",
+          "D": "<graphic>",
+          "jawaban": "A"
+        },
+        "195": {
+          "soal": "Perbedaan utama SVG dan Canvas adalah?",
+          "A": "SVG berbasis DOM",
+          "B": "Canvas berbasis DOM",
+          "C": "SVG raster",
+          "D": "Canvas vector",
+          "jawaban": "A"
+        },
+        "196": {
+          "soal": "Tag HTML untuk menampilkan file HTML dalam halaman lain adalah?",
+          "A": "<iframe>",
+          "B": "<frame>",
+          "C": "<window>",
+          "D": "<embed>",
+          "jawaban": "A"
+        },
+        "197": {
+          "soal": "Atribut allowfullscreen digunakan pada?",
+          "A": "iframe",
+          "B": "img",
+          "C": "video",
+          "D": "canvas",
+          "jawaban": "A"
+        },
+        "198": {
+          "soal": "Tag HTML untuk grouping label dan input adalah?",
+          "A": "<label>",
+          "B": "<group>",
+          "C": "<fieldset>",
+          "D": "<inputgroup>",
+          "jawaban": "C"
+        },
+        "199": {
+          "soal": "Tag HTML untuk judul fieldset adalah?",
+          "A": "<legend>",
+          "B": "<title>",
+          "C": "<label>",
+          "D": "<caption>",
+          "jawaban": "A"
+        },
+        "200": {
+          "soal": "Konsep HTML yang membuat struktur halaman lebih bermakna disebut?",
+          "A": "Semantic HTML",
+          "B": "Dynamic HTML",
+          "C": "Smart HTML",
+          "D": "Modular HTML",
+          "jawaban": "A"
+        }
+      }
     }
   }
 }
