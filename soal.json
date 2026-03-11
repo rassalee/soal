@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "kategori": {
     "html": {
       "1": {"soal":"Apa kepanjangan dari HTML?","A":"Hyper Text Markup Language","B":"High Transfer Machine Language","C":"Hyper Tool Markup Language","D":"Home Text Machine Language","jawaban":"A"},
