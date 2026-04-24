@@ -1,0 +1,82 @@
+[
+  {
+    "soal": "Apa kepanjangan dari CPU?",
+    "A": "Central Processing Unit",
+    "B": "Computer Personal Unit",
+    "C": "Central Program Utility",
+    "D": "Control Processing Unit",
+    "jawaban": "A"
+  },
+  {
+    "soal": "Perangkat keras yang digunakan untuk menampilkan gambar adalah?",
+    "A": "Keyboard",
+    "B": "Mouse",
+    "C": "Monitor",
+    "D": "Printer",
+    "jawaban": "C"
+  },
+  {
+    "soal": "Sistem operasi termasuk ke dalam kategori?",
+    "A": "Hardware",
+    "B": "Software",
+    "C": "Brainware",
+    "D": "Firmware",
+    "jawaban": "B"
+  },
+  {
+    "soal": "Contoh perangkat input adalah?",
+    "A": "Monitor",
+    "B": "Speaker",
+    "C": "Keyboard",
+    "D": "Printer",
+    "jawaban": "C"
+  },
+  {
+    "soal": "RAM berfungsi untuk?",
+    "A": "Menyimpan data permanen",
+    "B": "Menampilkan gambar",
+    "C": "Menyimpan data sementara",
+    "D": "Menghubungkan jaringan",
+    "jawaban": "C"
+  },
+  {
+    "soal": "Perangkat yang digunakan untuk mencetak dokumen adalah?",
+    "A": "Scanner",
+    "B": "Printer",
+    "C": "Monitor",
+    "D": "Keyboard",
+    "jawaban": "B"
+  },
+  {
+    "soal": "Apa fungsi dari IP Address?",
+    "A": "Sebagai alamat perangkat di jaringan",
+    "B": "Untuk menyimpan data",
+    "C": "Untuk menampilkan gambar",
+    "D": "Sebagai antivirus",
+    "jawaban": "A"
+  },
+  {
+    "soal": "Contoh software aplikasi adalah?",
+    "A": "Windows",
+    "B": "Linux",
+    "C": "Microsoft Word",
+    "D": "BIOS",
+    "jawaban": "C"
+  },
+  {
+    "soal": "Perangkat untuk menghubungkan ke jaringan internet adalah?",
+    "A": "Modem",
+    "B": "Keyboard",
+    "C": "Printer",
+    "D": "Speaker",
+    "jawaban": "A"
+  },
+  {
+    "soal": "Harddisk digunakan untuk?",
+    "A": "Menyimpan data secara permanen",
+    "B": "Menampilkan gambar",
+    "C": "Input data",
+    "D": "Mengolah data",
+    "jawaban": "A"
+  }
+]
